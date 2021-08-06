@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function _keys(obj)
+{
+    if(!isObject(obj)) return [];
+    if(Object.keys) return Object.keys(obj);
+    var keys = [];
+    for(var key in obj) if (_keys.has(obj, key)) keys.push(key);
+    return keys;
+}
+function isObject(obj)
+{
+    var type = typeof obj;
+    return type === 'function' || type === 'object' && !!obj;
+
+}
+console.log(_keys({red: "#FF0000", green: "#00FF00", white: "#FFFFFF"}));
+    </script>
+</body>
+</html>
+
+In object oriented programming, an object is an extensible program code template for creating classes, providing initial values for state and implementations of behaviour.... in these language, a class that creates classes is called a metaclass.
