@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A40808"
+    android:textAlignment="viewStart"
+    tools:context=".dashboard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A40808"
+        android:textAlignment="viewStart"
+        tools:context=".dashboard">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="94dp"
+            android:layout_height="86dp"
+            android:layout_marginHorizontal="170dp"
+            android:layout_marginVertical="15dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/back_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageMenu"
+            android:layout_width="94dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/textWritingName"
+            android:layout_width="259dp"
+            android:layout_height="100dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/writing"
+            android:textColor="#FEEDED"
+            android:textColorHighlight="#FCC8C8"
+            android:textSize="60sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.905" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:id="@+id/constraintLayout"
+            android:layout_width="412dp"
+            android:layout_height="655dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/layout_bg"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageMenu"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/textWriting1"
+                android:layout_width="244dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="36dp"
+                android:contentDescription="@string/app_name"
+                android:text="@string/writing_name"
+                android:textAlignment="textStart"
+                android:textColor="#930707"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.016"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textWriting2"
+                android:layout_width="371dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/writing_name1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWriting1" />
+
+            <TextView
+                android:id="@+id/textWriting3"
+                android:layout_width="356dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/writing_name2"
+                android:textColor="#930707"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWriting2" />
+
+            <TextView
+                android:id="@+id/textWriting4"
+                android:layout_width="371dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/writing_name3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWriting3" />
+
+            <TextView
+                android:id="@+id/textWriting5"
+                android:layout_width="358dp"
+                android:layout_height="31dp"
+                android:layout_marginBottom="24dp"
+                android:text="@string/writing_name4"
+                android:textColor="#930707"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWriting4"
+                app:layout_constraintVertical_bias="0.057"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/textWriting6"
+                android:layout_width="339dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/writing_name5"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWriting5" />
+
+            <TextView
+                android:id="@+id/textWriting7"
+                android:layout_width="356dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/writing_name6"
+                android:textColor="#930707"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWriting6" />
+
+            <TextView
+                android:id="@+id/textWriting8"
+                android:layout_width="371dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/writing_name7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWriting7" />
+
+            <TextView
+                android:id="@+id/textWriting9"
+                android:layout_width="358dp"
+                android:layout_height="31dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginStart="24dp"
+                android:text="@string/writing_name8"
+                android:textColor="#930707"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWriting8"
+                app:layout_constraintVertical_bias="0.027"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textWriting10"
+                android:layout_width="336dp"
+                android:layout_height="122dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/writing_name9"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWriting9" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

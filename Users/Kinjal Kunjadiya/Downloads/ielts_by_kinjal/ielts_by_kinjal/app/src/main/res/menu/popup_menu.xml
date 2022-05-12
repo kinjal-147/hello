@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/listening_menu"
+        android:title="Listening"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/reading_menu"
+        android:title="Reading"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/writing_menu"
+        android:title="Writing"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/speaking_menu"
+        android:title="Speaking"
+        tools:ignore="HardcodedText" />
+
+</menu>

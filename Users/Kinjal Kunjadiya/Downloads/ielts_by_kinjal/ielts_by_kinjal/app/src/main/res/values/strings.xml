@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">ielts_by_kinjal</string>
+    <string name="logo_name">IELTS by Kinjal</string>
+    <string name="textTagline">IELTS Preparation : Free Tips and lessons</string>
+    <string name="textTagline2">Find the task you want to learn</string>
+    <string name="search">Search for Tasks</string>
+    <string name="textTitle">IELTS by Kinjal</string>
+    <string name="listening">Listening</string>
+    <string name="reading">Reading</string>
+    <string name="writing">Writing</string>
+    <string name="info">Info</string>
+    <string name="home">Home</string>
+    <string name="grammar">Grammar</string>
+    <string name="vocabulary">Vocabulary</string>
+    <string name="topics">Topics</string>
+    <string name="profile">Profile</string>
+    <string name="rate">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="website_name">www.ieltsbykinjal.com</string>
+    <string name="communicate">Communicate</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="navi">Close</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+
+    <!--   *********************************  Listening  *******************************  -->
+    <string name="listening_name">Introduction </string>
+    <string name="listening_name1">
+        This is a 40 minutes evaluation in which 30 minutes are for testing and 10 minutes are for
+        transferring the answers to an answer sheet. These life-changing 40 minutes of your life
+        comprises of four sections.
+    </string>
+    <string name="listening_name2">
+        The first two sections of the IELTS Listening module are concerned with a usual situation
+        at your university or at your workplace.
+
+        Whereas the third and fourth sections are going to be outlined on general interest then
+        whatever subject you are choosing to study you intend to do, hardly matters.
+    </string>
+    <string name="listening_name3">
+        IELTS test candidates(Academic and General Training) do the same IELTS Listening Test.
+    </string>
+    <string name="listening_name4">
+        Duration :- 40 minutes <br/>
+        The audio recording :- 30 minutes <br/>
+        parts :- 4 parts<br/>
+        Each part has 10 questions.
+    </string>
+
+    <!--   *********************************  Reading  *******************************  -->
+    <string name="reading_name">Introduction</string>
+    <string name="reading_name1">
+        IELTS General Reading test is designed to assess a wide range of your reading skills.<br/>
+        Here is a short overview of the general reading test format:
+    </string>
+    <string name="reading_name2">
+        No of Questions	:- 40 <br/>
+        Format :- Extracts from books, magazines, newspapers, notices, advertisements,<br/>
+        company handbooks and guidelines. These are materials you are likely to encounter <br/>
+        on a daily basis in an English-speaking environment.
+        Duration :- 60 minutes including the transfer time. <br/>
+    </string>
+    <string name="reading_name3">
+        Types of Reading Modules
+    </string>
+    <string name="reading_name4">
+        There are two different reading modules :
+    </string>
+    <string name="reading_name5">
+        1. Academic <br/>
+        2. General Training
+    </string>
+    <string name="reading_name6">
+        1. Academic IELTS Reading Module :
+    </string>
+    <string name="reading_name7">
+        In the academic reading test, the passages are taken from books, journals, magazines,<br />
+        and newspapers from academic sources that will be appropriate for university students. <br/><br/>
+        Each passage is long, maybe 6 – 10 paragraphs, could also be written in an exceedingly<br/>
+        type of styles like narrative or descriptive.<br/><br/>
+        The passages will sometimes include technical terms or maybe visual material like charts<br/>
+        and graphs.
+    </string>
+    <string name="reading_name8">
+        2. General Training IELTS Reading Module :
+    </string>
+    <string name="reading_name9">
+        In the general IELTS reading test, the passages are taken from books, magazines, <br/>
+        newspapers, notices, advertisements, company handbooks and guidelines found from material <br/>
+        you’d encounter on a daily-basis in an English-speaking environment. a bit like within<br/>
+        the academic reading test, there are 3 sections, however in an IELTS general reading test,<br/>
+        each section may be a bit different from each other. you’ll be able to practice these <br/>
+        topics and more with our IELTS reading practice test questions.
+    </string>
+
+    <!--   *********************************  Writing  *******************************  -->
+    <string name="writing_name">Introduction</string>
+    <string name="writing_name1">
+        The writing test consists of 2 writing tasks and you’ll have a total of 60 minutes to <br/>
+        complete both. You can complete the tasks in any order, just make sure you manage your<br/>
+        time well and spend around 20 minutes on IELTS writing task 1 and 40 minutes on <br/>
+        IELTS writing task 2.
+    </string>
+    <string name="writing_name2">
+        IELTS Academic Writing Task 1
+    </string>
+    <string name="writing_name3">
+        In IELTS academic writing task 1, you are presented with a graph, table, chart or diagram <br/>
+        and asked to describe, summarise or explain the information in your own words. You may be<br/>
+        asked to describe and explain data, describe the stages of a process, how something works<br/>
+        or describe an object or event.
+    </string>
+    <string name="writing_name4">
+        Types of Questions :
+    </string>
+    <string name="writing_name5">
+        1. Line Graphs <br/>
+        2. Bar Charts <br/>
+        3. Pie Graphs <br/>
+        4. Tables <br/>
+        5. Diagrams <br/>
+        6. Maps <br/>
+        7. Mixed (including two or more of 1-6 above)
+    </string>
+    <string name="writing_name6">
+        IELTS General Writing Task 1
+    </string>
+    <string name="writing_name7">
+        In IELTS general training writing task 1, you will be presented with a situation and <br/>
+        will need to write a personal response in the form of an informal, semi-formal or<br/>
+        formal letter of at least 150 words.
+    </string>
+    <string name="writing_name8">
+        Types of Questions :
+    </string>
+    <string name="writing_name9">
+        1. Formal Letter <br/>
+        2. Semi-Formal Letter <br/>
+        3. Informal Letter
+    </string>
+    <string name="writing_name10">
+        IELTS Writing Task 2
+    </string>
+    <string name="writing_name11">
+        In IELTS writing task 2, you will need to write a traditional style essay in response <br/>
+        to a question. You must write at least 250 words. If you do not write enough words, you <br/>
+        will be penalised. There are 6 different question types in task 2.
+    </string>
+    <string name="writing_name12">
+        1. Agree or disagree
+        2. Discuss both views and give your own opinion
+        3. Advantages and disadvantages
+        4. Problems and solutions
+        5. Positive or negative
+        6. Two-part question
+        7. Opinion
+    </string>
+
+    <!--   *********************************  Speaking  *******************************  -->
+    <string name="speaking_name">Introduction</string>
+    <string name="speaking_name1">
+        This page contains everything you need to know and the essential skills for a
+        high score in IELTS speaking.<br/>
+        The IELTS speaking test can be a little intimidating at first, especially because you’ll
+        be tested live in front of your examiner. Due to this live format, finding free speaking<br/>
+        topics with sample responses can be difficult.
+        The speaking test lasts about 11 – 15 minutes, consisting of 3 parts.
+        Please note the speaking topics for Greeting and Part 1 are the same, so they are
+        considered only 1 part, but we have separated them for your convenience.
+    </string>
+    <string name="speaking_name2">Part 1 :</string>
+    <string name="speaking_name3">
+        4-5 minutes >> You will be asked questions on familiar topics, like your hobbies,
+        family, where you are from, what your hometown/city is like, etc.
+    </string>
+    <string name="speaking_name4">Part 2 :</string>
+    <string name="speaking_name5">
+        3-4 minutes >> First, the examiner will give you one minute to think about the question<br/>
+        and make notes. Next, you will speak for 1-2 minutes uninterrupted. Then the examiner<br/>
+        will ask you a further six or seven questions about what you have said.
+    </string>
+    <string name="speaking_name6">Part 3 :</string>
+    <string name="speaking_name7">
+        4-5 minutes >> The examiner will ask you further questions <br/>
+        related to the question topic from part 2. This will give you the opportunity to<br/>
+        discuss more abstract ideas.
+    </string>
+
+    <!--   *********************************  Tips  *******************************  -->
+    <string name="tips">Tips</string>
+    <string name="tips_name1">
+        Listening Tips :
+    </string>
+    <string name="tips_name2">
+        1. Give It Your Full Attention
+    </string>
+    <string name="tips_name3">
+        2. Pick Up Key Points
+    </string>
+    <string name="tips_name4">
+        3.Practice Active Listening
+    </string>
+    <string name="tips_name5">
+        4. Recognise Opinion And Attitude
+    </string>
+    <string name="tips_name6">
+        5. Be Curious
+    </string>
+    <string name="tips_name7">
+        Reading Tips :
+    </string>
+    <string name="tips_name8">
+        1. Always Read The Instructions
+    </string>
+    <string name="tips_name9">
+        2. Be Aware Of Timing
+    </string>
+    <string name="tips_name10">
+        3. Answer Every Question
+    </string>
+    <string name="tips_name11">
+        4. Forget What You Know Already
+    </string>
+    <string name="tips_name12">
+        Paraphrasing, Synonyms And Vocabulary
+    </string>
+
+    <!--   *********************************  Lessons  *******************************  -->
+    <string name="lessons">Lessons</string>
+    <string name="lessons_1">
+        Lessons To Learn :
+    </string>
+    <string name="lessons_name1">
+        After marking hundreds of Task 1 reports on my VIP Course, I’ve noticed that most students make the same mistakes over and over that prevent them from scoring a Band 7 or above. Below you’ll find the 5 most common mistakes that people make in their IELTS Task 1 reports and how you can fix them and improve your writing.
+    </string>
+    <string name="lessons_name2">
+        Your overview is the most important part of your whole response for IELTS Writing Task 1.
+
+This should be a short paragraph that tells the reader 2 or 3 of the most significant things about the chart, graph, table etc. It should contain no data and instead describe the main features in general terms.
+
+If you look at the IELTS Marking Criteria for Task 1, it states that candidates must ‘present a clear overview of main trends, differences or stages’ in order to get a Band 7. In other words, if you don’t write a clear overview, you can’t get a Band 7 or above.
+    </string>
+    <string name="lessons_name3">
+        Every Academic Task 1 question states Summarise the information by selecting and reporting the main features. Summarise means that you should only mention the main points, or as the question states, ‘the main features.’
+
+Lots of students try to write about every piece of information they see. This normally leads to a very disorganised essay and often means that you run out of time, or even worse, run over time and fail to complete Task 2.
+
+Always keep in mind that this task is as much about what you do not write as it is about what you do write. This is often a case of prioritisation. When teaching my VIP students how to write an overview, I suggest that they only tell the examiner 3 things and 3 things only about the graph. This prioritisation helps them to write a clear and effective overview.
+
+    </string>
+    <string name="lessons_name4">
+        The examiners know that you have never seen the graph or chart before and that you only have 20 minutes to write about it, so they are not expecting miracles. To help you, the graphs are much simpler than you think.
+
+Look at the graph below and try to spot the three general trends. Try not to get caught up in the details, just focus on what is happening generally from the start date to the end.
+
+IELTS Academic Writing Task 1
+In general, one goes up, one goes down and one stays relatively stable. It is often that simple! If you reported those three main trends you would be correct, but many students (especially the higher-level ones) think that this is too simple and try to find data that is not really there to find.
+    </string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard2">dashboard2</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="speaking">Speaking</string>
+    <string name="back">Back</string>
+
+</resources>
